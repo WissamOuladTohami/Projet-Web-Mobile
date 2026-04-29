@@ -22,15 +22,15 @@ Projet_Web_Mobile/
 
 ## 🛠️ Stack technique
 
-- **Backend** : Node.js, Express, MySQL (MariaDB), JWT, Socket.IO
+- **Backend** : Node.js, Express, MySQL , JWT, Socket.IO
 - **Frontend** : React + Vite, Axios, React Router, Leaflet, Recharts
 - **Mobile** : Android (Java), Retrofit, Google Location Services
 
 ## ✅ Prérequis
 
 - Node.js + npm
-- MySQL/MariaDB (ex: phpMyAdmin)
-- Android Studio (si tu veux lancer l’app mobile)
+- MySQL (ex: phpMyAdmin)
+- Android Studio (pour lancer l’app mobile)
 
 ## 🗄️ Base de données
 
