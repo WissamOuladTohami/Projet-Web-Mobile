@@ -128,8 +128,5 @@ La table `vehicle_positions` doit contenir `recorded_at` (et pas `updated_at`).
 
 ## 📄 Rapport de Projet
 
-[![Overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white)](VOTRE_LIEN_OVERLEAF_ICI)
-
-Le rapport complet du projet est disponible sur Overleaf :  
-[📝 Voir le rapport]([VOTRE_LIEN_OVERLEAF_ICI](https://www.overleaf.com/read/nbzyrpwdvzhn#136c26))
+[![Voir le rapport sur Overleaf](https://img.shields.io/badge/Voir%20le%20rapport-47A141?style=for-the-badge&logo=Overleaf&logoColor=white)](https://www.overleaf.com/read/nbzyrpwdvzhn#136c26)
 
