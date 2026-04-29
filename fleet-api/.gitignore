@@ -1,0 +1,12 @@
+# Node
+node_modules/
+.npm-cache/
+
+# Logs
+logs
+*.log
+
+# Env
+.env
+.env.local
+

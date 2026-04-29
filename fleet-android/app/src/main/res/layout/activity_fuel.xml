@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0B1E"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⛽ Déclarer Carburant"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrez votre consommation"
+        android:textColor="#6B7280"
+        android:textSize="13sp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUANTITÉ (Litres)"
+        android:textColor="#6B7280"
+        android:textSize="11sp"
+        android:letterSpacing="0.08"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/input_background"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTE (optionnel)"
+        android:textColor="#6B7280"
+        android:textSize="11sp"
+        android:letterSpacing="0.08"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etNote"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/input_background"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvFuelError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#E74C3C"
+        android:textSize="13sp"
+        android:visibility="gone"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSubmitFuel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="ENREGISTRER"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_primary"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnCancelFuel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="ANNULER"
+        android:textColor="#6B7280"
+        android:background="@drawable/button_outline" />
+
+</LinearLayout>
