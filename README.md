@@ -124,3 +124,12 @@ La table `vehicle_positions` doit contenir `recorded_at` (et pas `updated_at`).
 - L’API utilise Socket.IO (serveur HTTP) dans `fleet-api/server.js`
 - Le front rafraîchit les positions toutes les 5 secondes dans la page Carte GPS
 
+---
+
+## 📄 Rapport de Projet
+
+[![Overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=Overleaf&logoColor=white)](VOTRE_LIEN_OVERLEAF_ICI)
+
+Le rapport complet du projet est disponible sur Overleaf :  
+[📝 Voir le rapport]([VOTRE_LIEN_OVERLEAF_ICI](https://www.overleaf.com/read/nbzyrpwdvzhn#136c26))
+
